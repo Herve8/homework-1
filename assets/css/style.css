@@ -1,0 +1,248 @@
+/* Resetting the style of the border box  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Setting the background color of the page to white */
+body {
+    background-color: #d9dcd6;
+}
+/* Setting all around padding of the header element to 20px and also styling
+the font and colors */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*  */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Styling the color of the main heading text to white */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Setting the style [adding and margin of the main title in the header 
+and also moving it to the top left hand side of the page*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Changing the style of the navigation menu to a non list style */
+.header div ul {
+    list-style-type: none;
+}
+/* Moving the navigation menu into one line */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Ensuring that all underlines are removed from links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Setting the font size of the paragraph */
+p {
+    font-size: 16px;
+}
+/* Styling the hero image */
+.hero {
+    padding: 20px;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Styling the texts in the articles search engine optimisation 
+and  social media marketing so that they are placed to the right
+hand side of their images */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Styling the texts in the artcile online reputation management 
+so that it is placed to the left hand side of its image*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+#main{
+    width: 75%;
+    display: inline-block;
+    margin: left 20px;
+}
+
+
+/*.content{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}*/
+
+/* Styling the content of search engine optimization so that
+it's width is 75% of the page */
+.content-seo {
+    width: 80%;
+    display: inline-block;
+    margin-left: 20px;
+    padding: auto 0;
+    margin-right: 20px;
+}
+/* Styling the content of online reputation management so that
+it's width is 75% of the page */ 
+.content-orm {
+    width: 80%;
+    display: inline-block;
+    margin-left: 20px;
+    padding: auto 0;
+}
+/* Styling the content of social so that
+it's width is 75% of the page */ 
+.content-smm {
+    width: 80%;
+    display: inline-block;
+    margin-left: 20px;
+    padding: auto 0;
+    }
+
+/* */
+    .search-engine-optimization {
+        
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    /*  */
+    .online-reputation-management {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    /*  */
+    .social-media-marketing {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    /* Setting the height of the search engine optimization image to 200px */
+    .search-engine-optimization img {
+        max-height: 200px;
+    }
+    /* Setting the height of the online-reputation-management image to 200px */ 
+    .online-reputation-management img {
+        max-height: 200px;
+    }
+    /* Setting the height of the social-media-marketing image to 200px */
+    .social-media-marketing img {
+        max-height: 200px;
+    }
+    /* Setting the style of the search engine optimization header */
+    .search-engine-optimization h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    /* Setting the style of the online-reputation-management header */
+    .online-reputation-management h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    /* Setting the style of the social-media-marketing header */
+    .social-media-marketing h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+.benefits {    
+    border-right: 10px;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+    clear: both;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/*  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*  */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*  */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*  */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*  */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*  */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*  */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*  */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*  */
+
+/* Setting the context of the footer and placing
+it to the bottom center of the page */
+.footer {
+    padding: 50px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Seeting the text of the footer */
+.footer h2 {
+    font-size: 20px;
+}
